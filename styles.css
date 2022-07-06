@@ -78,7 +78,7 @@ html{
     display: flex;
     width: 20.8vw;
     height: 35vh;
-    border: 2px solid green;
+/*     border: 2px solid green; */
     z-index: 5;
    position:absolute;
    left: 77.5%;
