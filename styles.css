@@ -158,12 +158,15 @@ html{
     font-family: 'Baloo Chettan 2', cursive; 
     text-shadow: 1px 2px 2px rgb(220, 67, 67);
 }
+  #container::-webkit-scrollbar{
+        display: none;
+      }
 #container
 {
     display: flex;
     position: relative;
     top: 12vh;
-    border:2px solid black;
+/*     border:2px solid black; */
     width: 80%;
     height: 30vh;
     margin:auto;
